@@ -13,7 +13,7 @@ function main()
         end
 
         --это в main(), после while not isSampAvailable() do wait(100) end
-        autoupdate("https://raw.githubusercontent.com/CerberUSGR0/OnyxHelper/main/update.JSON", '['..string.upper(thisScript().name)..']: ', "https://github.com/CerberUSGR0/OnyxHelper/blob/main/OnyxHelperBETA.luac")
+        autoupdate("https://raw.githubusercontent.com/CerberUSGR0/OnyxHelper/main/update.JSON", '['..string.upper(thisScript().name)..']: ', "https://raw.githubusercontent.com/CerberUSGR0/OnyxHelper/main/OnyxHelperBETA.lua")
 
         --
         --     _   _   _ _____ ___  _   _ ____  ____    _  _____ _____   ______   __   ___  ____  _     _  __
